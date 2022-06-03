@@ -1,0 +1,2 @@
+- from `rust-index-tests/fileserver`, run `python -m SimpleHTTPServer 8080`
+- from `rust-index-tests/use-mirror`, run `cargo build`

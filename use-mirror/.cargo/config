@@ -1,7 +1,7 @@
 [source]
 
 [source.mirror]
-registry = "http://localhost:8080/crates.io-index"
+registry = "http://localhost:8080"
 
 [source.crates-io]
 replace-with = "mirror"
