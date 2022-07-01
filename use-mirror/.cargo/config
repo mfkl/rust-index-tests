@@ -1,7 +1,9 @@
-[source]
+[net]
+git-fetch-with-cli = true
 
-[source.mirror]
-registry = "http://localhost:8080"
+[source]
+[source.local-proxy]
+registry = "file:///local/path/rust-index-tests/crates.io-index"
 
 [source.crates-io]
-replace-with = "mirror"
+replace-with = "local-proxy"
